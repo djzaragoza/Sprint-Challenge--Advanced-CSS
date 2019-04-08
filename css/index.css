@@ -204,6 +204,67 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro .animation {
+  position: relative;
+  -webkit-animation: animation 10s 2;
+  -webkit-animation-direction: alternate;
+  animation: animation 10s 2;
+  animation-direction: alternate;
+}
+@-webkit-keyframes animation {
+  0% {
+    background: lightgray;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: lightblue;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background: dodgerblue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background: lightblue;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background: lightgray;
+    left: 0px;
+    top: 0px;
+  }
+}
+@keyframes animation {
+  0% {
+    background: lightgray;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: lightblue;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background: dodgerblue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background: lightblue;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background: lightgray;
+    left: 0px;
+    top: 0px;
+  }
+}
 .home .intro img {
   border-radius: 5px 5px;
   padding-top: 100px;
