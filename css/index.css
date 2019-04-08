@@ -162,7 +162,7 @@ p {
 }
 nav {
   width: 100%;
-  background-color: #f6f6f6;
+  background-color: #f9f9f9;
   z-index: 1;
   position: fixed;
 }
@@ -175,21 +175,21 @@ nav .nav {
   justify-content: center;
 }
 @media only screen and (max-width: 500px) {
-  nav {
+  nav .nav {
     width: 80%;
   }
 }
-nav h1 {
+nav .nav h1 {
   font-size: 3.5rem;
   margin: 20px 0;
 }
-nav .navigation {
+nav .nav .navigation {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
   padding: 10px 0;
 }
-nav .navigation * {
+nav .nav .navigation a {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
